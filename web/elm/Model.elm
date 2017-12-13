@@ -2,7 +2,8 @@ module Model exposing (..)
 
 type alias Model =
     {   contactList : ContactList
-        , error: Maybe String
+        , error : Maybe String
+        , search : String
     }
 
 type alias ContactList =
@@ -37,4 +38,5 @@ initialModel : Model
 initialModel =
     { contactList = initialContactList
     , error = Nothing
+    , search = ""
     }

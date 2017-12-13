@@ -4,10 +4,10 @@ var _user$project$Model$initialContactList = {
 	total_entries: 0,
 	total_pages: 0
 };
-var _user$project$Model$initialModel = {contactList: _user$project$Model$initialContactList, error: _elm_lang$core$Maybe$Nothing};
-var _user$project$Model$Model = F2(
-	function (a, b) {
-		return {contactList: a, error: b};
+var _user$project$Model$initialModel = {contactList: _user$project$Model$initialContactList, error: _elm_lang$core$Maybe$Nothing, search: ''};
+var _user$project$Model$Model = F3(
+	function (a, b, c) {
+		return {contactList: a, error: b, search: c};
 	});
 var _user$project$Model$ContactList = F4(
 	function (a, b, c, d) {

@@ -3,7 +3,7 @@ var _user$project$Main$init = A2(
 	_user$project$Model$initialModel,
 	{
 		ctor: '::',
-		_0: _user$project$Commands$fetch,
+		_0: A2(_user$project$Commands$fetch, 1, ''),
 		_1: {ctor: '[]'}
 	});
 var _user$project$Main$main = _elm_lang$html$Html$program(

@@ -4,11 +4,11 @@ import Decoders exposing (contactListDecoder)
 import Http
 import Messages exposing (Msg(..))
 
-fetch : Cmd Msg
-fetch =
+fetch : Int -> String -> Cmd Msg
+fetch page search =
     let
         apiUrl =
-            "/api/contacts/"
+            "/api/contacts/?page=" ++ (toString page) ++ "&search=" ++ search
 
         request =
             Http.get apiUrl contactListDecoder
