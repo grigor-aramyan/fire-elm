@@ -1,0 +1,16 @@
+var _user$project$Repl$t_s_o_l = {ctor: '_Tuple0'};
+var _user$project$Repl$over9000 = function (pi) {
+	return (_elm_lang$core$Native_Utils.cmp(pi, 9000) > 0) ? 'yeah!!!' : 'meh';
+};
+var _user$project$Repl$isNegative = function (x) {
+	return _elm_lang$core$Native_Utils.cmp(x, 0) < 0;
+};
+var _user$project$Repl$goodName = function (name) {
+	return (_elm_lang$core$Native_Utils.cmp(
+		_elm_lang$core$String$length(name),
+		20) < 1) ? {ctor: '_Tuple2', _0: true, _1: 'accepted'} : {ctor: '_Tuple2', _0: false, _1: 'too long'};
+};
+var _user$project$Repl$bill = {name: 'Gates', age: 27};
+var _user$project$Repl$d_e_l_t_r_o_n_3_0_3_0 = function (_) {
+	return _.age;
+}(_user$project$Repl$bill);
